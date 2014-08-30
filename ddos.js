@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-var args = process.argv;
+var args = process.argv.slice(2);
 
-console.log('Seus argumentos: '+args);
+function maior(num1, num2){
+  return num1 > num2 ? num1 : num2;
+}
 
-var args2 = args.slice(2);
-
-console.log('hello '+args2[0]);
+console.log(maior(args[0], args[1]));

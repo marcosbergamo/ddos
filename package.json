@@ -1,0 +1,22 @@
+{
+  "name": "ddos",
+  "version": "0.0.1",
+  "description": "Test your limits",
+  "main": "ddos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/marcosbergamo/ddos.git"
+  },
+  "keywords": [
+    "ddos"
+  ],
+  "author": "Marcos Bérgamo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosbergamo/ddos/issues"
+  },
+  "homepage": "https://github.com/marcosbergamo/ddos"
+}
